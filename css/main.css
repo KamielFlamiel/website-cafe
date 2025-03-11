@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 body {
@@ -28,7 +27,6 @@ body {
 .nav-list {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 .nav-tags {
@@ -48,5 +46,5 @@ body {
     color: #fff;
     width: 100px;
     text-align: center;
-    
+    justify-content: space-evenly;
 }
