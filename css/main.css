@@ -22,6 +22,21 @@ body {
     width: auto;
     height: 100px;
     flex-direction: row;
+    align-items: center;
+    border: #fff;
+    border-style: solid;
+    border-left: none;
+    border-top: none;
+    border-width: 1px;
+}
+
+.logo-img {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-list {
@@ -48,3 +63,4 @@ body {
     text-align: center;
     justify-content: space-evenly;
 }
+
