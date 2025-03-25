@@ -59,8 +59,9 @@ body {
     font-family: "JetBrains Mono", monospace;
     text-decoration: none;
     color: #fff;
-    width: 100px;
+    width: 150px;
     text-align: center;
     justify-content: space-evenly;
+    font-size: 30px;
 }
 
