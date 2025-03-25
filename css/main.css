@@ -89,6 +89,11 @@ body {
     background-color: #131313;
     border: #fff;
     border-style: solid;
+    
+}
+
+.locatie-container :hover {
+    cursor: pointer;
 }
 
 .locatie-text {
@@ -111,6 +116,10 @@ body {
     border-width: 1px;
     align-items: center;
     justify-content: center;
+}
+
+.login-button :hover {
+    cursor: pointer;
 }
 
 .login-text {
