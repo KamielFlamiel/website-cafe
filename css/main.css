@@ -21,7 +21,7 @@ body {
 .nav-container {
     display: flex;
     background-color: #131313;
-    width: auto;
+    width: 90%;
     height: 100px;
     flex-direction: row;
     align-items: center;
@@ -68,7 +68,7 @@ body {
     font-family: "JetBrains Mono", monospace;
     text-decoration: none;
     color: #fff;
-    width: 85%;
+    width: 100%;
     text-align: center;
     justify-content: center;
     font-size: 30px;
@@ -77,7 +77,7 @@ body {
 
 .nav-container-2 {
     display: flex;
-    width: 80%;
+    width: 75%;
     height: 100px;
     background-color: #131313;
     border: #fff;
@@ -135,4 +135,14 @@ body {
     font-family: "JetBrains Mono", monospace;
     color: #fff;
     font-size: 20px;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #131313;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
