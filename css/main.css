@@ -3,10 +3,24 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
 .header-container {
     background-color: #333;
     color: white;
     padding: 10px 0;
+    flex-direction: row;
 }
 
 .logo {
@@ -15,6 +29,11 @@
 }
 
 .navbar {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
