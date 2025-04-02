@@ -77,6 +77,8 @@ ul a {
     align-items: center;
     width: 100%;
     height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .locatie-container {
