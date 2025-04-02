@@ -19,6 +19,7 @@ header {
     color: white;
     width: 65%;
     height: 10%;
+    align-items: center;
 }
 
 .logo {
@@ -43,7 +44,7 @@ ul {
     text-decoration: none;
     list-style: none;
     margin: 0;
-    gap: 50px;
+    gap: 70px;
 }
 
 ul a {
