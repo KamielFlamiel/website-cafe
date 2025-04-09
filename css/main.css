@@ -136,7 +136,7 @@ ul a {
     flex-direction: column;
     background-color: #131313;
     width: 60%;
-    height: 653px;
+    height: 100%;
     border: solid;
     border-width: 1px;
     border-left: none;
@@ -162,6 +162,7 @@ ul a {
     font-family: "Jetbrains Mono", sans-serif;
     font-size: 20px;
     color: white;
+    margin-top: 20px;
 }
 
 .intro-img-container {
@@ -174,17 +175,73 @@ ul a {
 
 .intro-img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    max-height: 492px;
     margin-top: 20px;
 }
 
 .locatie-img-container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 40%;
-    height: 653px;
+    height: auto;
     background-color: black;
     border: solid;
     border-width: 1px;
     border-right: none;
     color: white; 
+    gap: 20px;
 }
+
+.locatie-img {
+    width: 100%;
+    height: 100%;
+    max-height: 180px;
+    max-width: 300px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #131313;
+    color: white;
+}
+
+.social-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.social-img {
+    width: 50px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #131313;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
