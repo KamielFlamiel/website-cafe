@@ -28,7 +28,6 @@
                     <img class="intro-img" src="img/interior.png" alt="">
             </div>
            
-            
         </div>
         <div class="locatie-img-container">
             <img class="locatie-img" src="img/map1.png" alt="">
@@ -38,9 +37,6 @@
     </main>
 
     <?php include 'footer.php';?>
-
-
-
 </body>
 
 </html>

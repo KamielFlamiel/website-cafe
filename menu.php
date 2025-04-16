@@ -23,15 +23,19 @@
                 <div class="menu-text-container">
                     <h1 class="menu-text">Menu</h1>
                 </div>
+
+                <?php
+                $sql = "SELECT * FROM `Menu Kaart` WHERE id = $i";
+                $stmt = $conn->prepare($sql);
+                $stmt->bindParam(':id', $_GET['id']);
+                $stmt->execute();
+                $result = $stmt->fetchAll();
+                ?>
+
                 <ul>
-                    <?php for  ($i = 0; $i < 10; $i++) { ?>
-                        <li class="menu-item">
-                            <div class="menu-item-text-container">
-                                <h1 class="menu-item-text">Menu item <?php echo $i + 1; ?></h1>
-                            </div>
-                            <div class="menu-item-img-container">
-                                <img class="menu-item-img" src="img/menu-item.png" alt="">
-                            </div>
+                    <?php for ($i = 0; $i < 5; $i++) { ?>
+                        <li> 
+                            
                         </li>
                     <?php } ?>
                 </ul>
@@ -39,13 +43,9 @@
                 </div>
             </div>
         </div>
-
-
-    </main>
+    </main> 
 
     <?php include 'footer.php';?>
-
-
 
 </body>
 
