@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php include 'connect.php';?>
 <html lang="en">
 
 <head>
@@ -14,32 +15,7 @@
 </head>
 
 <body>
-    <header>
-        <div class="header-container">
-            <div class="logo">
-                <img class="logo-img" src="img/image.png" alt="">
-            </div>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="#about">About us</a></li>
-                    <li><a href="#jobs">Jobs</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="header-container2">
-            <div class="login-bar">
-                <button class="locatie-container">
-                    <h1 class="locatie-text">Bezoek onze locatie's</h1>
-                </button>
-                <button class="login-container">
-                    <h1 class="login-text">Login</h1>
-                </button>
-            </div>
-        </div>
-    </header>
+    <?php include 'header.php';?>
 
     <main>
         <div class="main-container">
@@ -61,16 +37,7 @@
         </div>
     </main>
 
-    <footer>
-        <div class="footer-container">
-            <div class="social-container">
-                <img class="social-img" src="img/white-instagram-icon-png-2-3886470481.png" alt="">
-                <img class="social-img" src="img/white-facebook-icon-png-29-3425628924.png" alt="">
-                <img class="social-img" src="img/395125-328232108.png" alt="">
-                <img class="social-img" src="img/twitter-x-logo-png-9-1207032165.png" alt="">
-            </div>
-        </div>
-    </footer>
+    <?php include 'footer.php';?>
 
 
 
