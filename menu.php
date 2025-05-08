@@ -46,7 +46,7 @@
                         <div><?php echo $result[$i]['prijs'];?></div>
                     </div>
                     
-                    <img class="food-image" src="assets/images/<?php echo $result[$i]['id'].".png";?>" alt="<?php echo $result[$i]['naam'];?>">
+                    <img class="food-image" src="img"<?php echo $result[$i]['id'].".png";?>" alt="<?php echo $result[$i]['naam'];?>">
                 </div>
 
            
